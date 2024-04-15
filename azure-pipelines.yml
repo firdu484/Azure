@@ -22,6 +22,6 @@ steps:
     python main.py
 - task: PowerShell@2
   inputs:
-    filePath: 'Azure/powershell.ps1'
+    filePath: 'powershell.ps1'
   
   displayName: 'Run a Python script'
